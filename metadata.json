@@ -1,0 +1,5 @@
+{
+  "name": "Seniors 27 Cap",
+  "description": "A professional dashboard for teams to create and manage their project websites with custom themes, fonts, and content.",
+  "requestFramePermissions": ["serial", "usb"]
+}

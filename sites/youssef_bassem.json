@@ -1,0 +1,72 @@
+{
+  "theme": {
+    "primaryColor": "#10b981",
+    "fontFamily": "Inter",
+    "mode": "dark",
+    "preset": "nature"
+  },
+  "content": {
+    "logo": "https://www.bing.com/images/search?view=detailV2&ccid=RHvaQQV4&id=3699641DA262017643C6C10E4A151B73FE77E4C8&thid=OIP.RHvaQQV43Q-XYHnR3aSJVAHaFj&mediaurl=https%3a%2f%2fwww.logodee.com%2fwp-content%2fuploads%2f2022%2f12%2fprofessional-custom-business-logo-design-free-download.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.447bda410578dd0f976079d1dda48954%3frik%3dyOR3%252fnMbFUoOwQ%26pid%3dImgRaw%26r%3d0&exph=600&expw=800&q=logo&FORM=IRPRST&ck=25800A4623E335090900D9205EE61419&selectedIndex=9&itb=0",
+    "home": {
+      "title": "youssef bassem Project",
+      "description": "A smart agriculture initiative.",
+      "heroImage": "https://www.bing.com/images/search?view=detailV2&ccid=NG3%2bfk5k&id=A1AE4CD1D8ED9645A1F5AD343F1EF99B0E5F9B60&thid=OIP.NG3-fk5kZjD0wE7_97xBXQHaHa&mediaurl=https%3a%2f%2fd1csarkz8obe9u.cloudfront.net%2fposterpreviews%2fprofessional-logo-design-template-bca3f55cf5f4ae6cee610256686be477_screen.jpg%3fts%3d1589481102&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.346dfe7e4e646630f4c04efff7bc415d%3frik%3dYJtfDpv5Hj80rQ%26pid%3dImgRaw%26r%3d0&exph=690&expw=690&q=logo&FORM=IRPRST&ck=50DB8F80042EC52C9D34630C1AC26651&selectedIndex=8&itb=0",
+      "videoLink": "https://www.youtube.com/watch?v=9MRxA90Q7lE&list=RD9MRxA90Q7lE&start_radio=1",
+      "portfolioLink": "https://drive.google.com/file/d/1vDPnppCJbkMHUuzneaIkj3qs1KAg0w3o/view?usp=drive_link",
+      "posterLink": "https://drive.google.com/file/d/1vDPnppCJbkMHUuzneaIkj3qs1KAg0w3o/view?usp=drive_link"
+    },
+    "about": {
+      "text": "Our project focuses on sustainable farming practices using modern technology."
+    },
+    "problem": {
+      "text": "Water scarcity and soil degradation are major challenges in modern agriculture."
+    },
+    "solution": {
+      "text": "We provide real-time monitoring and automated irrigation systems."
+    },
+    "monitoring": {
+      "text": "Real-time sensor data from our Arduino system.",
+      "sensors": [
+        {
+          "id": "1",
+          "name": "Soil Moisture",
+          "icon": "Droplets",
+          "tag": "moisture-value",
+          "unit": "%"
+        },
+        {
+          "id": "2",
+          "name": "Temperature",
+          "icon": "Thermometer",
+          "tag": "temp",
+          "unit": "°C"
+        }
+      ],
+      "actuators": [],
+      "calibration": [],
+      "database": [],
+      "connectionType": "wifi"
+    },
+    "team": [
+      {
+        "name": "eiad",
+        "role": "",
+        "image": ""
+      },
+      {
+        "name": "koshary",
+        "role": "Role",
+        "image": ""
+      },
+      {
+        "name": "manawy",
+        "role": "Role",
+        "image": ""
+      }
+    ],
+    "contact": {
+      "email": "youssefbassem1023@gmail.com",
+      "social": ""
+    }
+  }
+}

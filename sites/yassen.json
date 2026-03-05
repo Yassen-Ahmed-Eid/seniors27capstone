@@ -1,0 +1,60 @@
+{
+  "theme": {
+    "primaryColor": "#10b981",
+    "fontFamily": "Inter",
+    "mode": "dark",
+    "preset": "nature",
+    "geminiKey": "AIzaSyDHaCrCotQqufWTlWfnu2oqAM3Yg5117kQ"
+  },
+  "content": {
+    "logo": "",
+    "home": {
+      "title": "Yassen Project",
+      "description": "A smart agriculture initiative."
+    },
+    "about": {
+      "text": "Our project focuses on sustainable farming practices using modern technology."
+    },
+    "problem": {
+      "text": "Water scarcity and soil degradation are major challenges in modern agriculture."
+    },
+    "solution": {
+      "text": "We provide real-time monitoring and automated irrigation systems."
+    },
+    "monitoring": {
+      "text": "Real-time sensor data from our Arduino system.",
+      "sensors": [
+        {
+          "id": "1",
+          "name": "Soil Moisture",
+          "icon": "Droplets",
+          "tag": "moisture",
+          "unit": "%"
+        },
+        {
+          "id": "2",
+          "name": "Temperature",
+          "icon": "Thermometer",
+          "tag": "temp",
+          "unit": "°C"
+        },
+        {
+          "id": "1772724793653",
+          "name": "Gas",
+          "icon": "Droplets",
+          "tag": "GAS",
+          "unit": ""
+        }
+      ],
+      "actuators": [],
+      "calibration": [],
+      "database": [],
+      "connectionType": "wifi"
+    },
+    "team": [],
+    "contact": {
+      "email": "",
+      "social": ""
+    }
+  }
+}
