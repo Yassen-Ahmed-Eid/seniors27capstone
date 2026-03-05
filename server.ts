@@ -237,3 +237,14 @@ async function startServer() {
 }
 
 startServer();
+const app = express();
+app.use(express.json({ limit: '10mb' }));
+
+// ... حط هنا كل الـ Routes بتاعتك (app.get, app.post) ...
+
+// السطر ده هو "السحر" اللي بيخليه يشتغل لوكال وأونلاين
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(3000, () => console.log('Server ready on port 3000'));
+}
+
+export default app; // ده اللي Vercel بيحتاجه عشان يشغل الباك اند
